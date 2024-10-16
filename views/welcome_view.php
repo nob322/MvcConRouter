@@ -11,9 +11,19 @@
 <p>This is the welcome page.</p>
     <nav>
         <a href="/mvc-exampleConRouter/">Home</a>
+        <a href="/mvc-exampleConRouter/welcome">Welcome</a>
         <a href="/mvc-exampleConRouter/about">About</a>
         <a href="/mvc-exampleConRouter/contact">Contact</a>
         <a href="/mvc-exampleConRouter/user">User</a>
     </nav>
+
+  
+    <!--para un hosting debe ser ruta relativa <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/user">User</a>
+    </nav> -->
+
 </body>
 </html>

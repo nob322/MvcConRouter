@@ -2,12 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
 </head>
 <body>
-    <h1>Contact Page</h1>
-    <p>This is the contact page.</p>
-    <!-- <a href="/mvc-exampleConRouter/">Back to Home</a> -->
+    <h1>Home Page</h1>
+    <p>This is the home page.</p>
     <nav>
         <a href="/mvc-exampleConRouter/">Home</a>
         <a href="/mvc-exampleConRouter/welcome">Welcome</a>

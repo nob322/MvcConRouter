@@ -222,12 +222,22 @@ class Router {
             $uri = trim($uri, '/');
             $uri = strtok($uri, '?'); // Ignorar parámetros GET
 
+             // Simular error 500 (quitar esto para el funcionamiento normal)
+           //  if ($uri === 'contact') {  
+           //     throw new Exception("Error interno del servidor", 500);
+           // }
+
             switch ($uri) {
                 case '':
-                case 'mvc-exampleConRouter':
+                case 'mvc-exampleConRouter'://se elimina en un hosting real
+                    require 'controllers/HomeController.php';
+                    $controller = new HomeController();
+                    break;
+
+                case 'welcome':
                     require 'controllers/WelcomeController.php';
                     $controller = new WelcomeController();
-                    break;
+                    break;   
 
                 case 'about':
                     require 'controllers/AboutController.php';
